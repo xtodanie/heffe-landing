@@ -1,4 +1,6 @@
-import './globals.css'
+export const dynamic = 'force-static'
+
+import '@/app/globals.css'
 import type { ReactNode } from 'react'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
