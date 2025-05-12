@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ====== FONT SETUP HEFFE ====== */
+
+@font-face {
+  font-family: 'Radlush';
+  src: url('/fonts/Radlush-Variable.woff2') format('woff2-variations'),
+       url('/fonts/Radlush-Variable.woff') format('woff-variations'),
+       url('/fonts/Radlush-Variable.otf') format('opentype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Radlush';
+  src: url('/fonts/Radlush-Italic-Variable.woff2') format('woff2-variations'),
+       url('/fonts/Radlush-Italic-Variable.woff') format('woff-variations'),
+       url('/fonts/Radlush-Italic-Variable.otf') format('opentype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Radlush';
+  src: url('/fonts/Radlush-Regular.woff2') format('woff2'),
+       url('/fonts/Radlush-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Radlush';
+  src: url('/fonts/Radlush-Bold.woff2') format('woff2'),
+       url('/fonts/Radlush-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Radlush';
+  src: url('/fonts/Radlush-BoldItalic.woff2') format('woff2'),
+       url('/fonts/Radlush-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* === FONT VARIABLES === */
+
+:root {
+  --font-serif: 'Radlush', serif;
+  --font-sans: 'Inter', sans-serif;
+}

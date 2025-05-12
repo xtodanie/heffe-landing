@@ -1,7 +1,17 @@
+// ✅ BenefitsSection.tsx (versión extendida y corregida)
+function Benefit({ title, content }: { title: string; content: string }) {
+  return (
+    <div className="bg-brand-black p-6 rounded-lg border border-brand-straw space-y-3">
+      <h3 className="text-base font-semibold text-brand-straw">{title}</h3>
+      <p className="text-sm text-brand-white/80">{content}</p>
+    </div>
+  )
+}
+
 export default function BenefitsSection() {
   return (
-    <section className="py-20 px-4 bg-heffe-soft text-heffe-white text-center space-y-12">
-      <h2 className="text-3xl font-bold text-heffe-gold">🚀 HEFFE resuelve lo que otros ignoran</h2>
+    <section className="py-20 px-4 bg-brand-tekhelet text-brand-white text-center space-y-12">
+      <h2 className="text-3xl font-serif font-bold text-brand-straw">🚀 HEFFE resuelve lo que otros ignoran</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto text-left text-sm">
         <Benefit
@@ -42,14 +52,5 @@ export default function BenefitsSection() {
         />
       </div>
     </section>
-  )
-}
-
-function Benefit({ title, content }: { title: string; content: string }) {
-  return (
-    <div className="bg-heffe-dark p-6 rounded-lg border border-heffe-gold space-y-3">
-      <h3 className="text-base font-semibold text-heffe-gold">{title}</h3>
-      <p className="text-sm">{content}</p>
-    </div>
   )
 }

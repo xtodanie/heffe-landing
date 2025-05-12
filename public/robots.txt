@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://heffe.app/sitemap.xml
+Sitemap: https://heffe.org/sitemap.xml
